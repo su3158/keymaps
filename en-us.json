@@ -1,0 +1,11 @@
+{
+'locale':'en-us'
+'scancodes':
+	{
+  	'HEX':'ASCII',
+	},
+'mapping:{
+	{
+  	'letter':DEC,
+	},
+}
