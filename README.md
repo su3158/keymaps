@@ -3,14 +3,14 @@
 
 ```
 {
-'locale':'uk' # keboard layout
-'scancodes':
-	{
-  	'HEX':'ASCII', # mapping
-	},
-'mapping:{
-	{
-  	'letter':DEC, # mapping
-	},
+  "language": "us", # keboard layout
+  "scancodes": {
+    "<MODIFIER>,<SCANCODE>": "ASCII",
+    ...
+  },
+  "mapping": {
+    "letter": "<MODIFIER>,<SCANCODE>",
+    ...
+  }
 }
 ```
