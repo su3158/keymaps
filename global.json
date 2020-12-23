@@ -11,7 +11,7 @@
         "40": "MOD_RALT",
         "80": "MOD_RMETA"
     },
-    "scancodes": {
+    "keys": {
         "28": "ENTER",
         "29": "ESC",
         "2a": "BACKSPACE",
