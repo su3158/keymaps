@@ -36,9 +36,7 @@ export function generateKeymap(global, regions) {
       (prev, curr) => ({
         ...prev,
         ...generateRegionMap(curr, (prop) =>
-          prop === 'language'
-            ? prop
-            : reverseModifierScancodeMapping(prop, MODIFIER_SHIFT),
+          reverseModifierScancodeMapping(prop, MODIFIER_SHIFT),
         ),
       }),
       {},
@@ -49,6 +47,6 @@ export function generateKeymap(global, regions) {
     scancodes,
     humanReadable,
   };
-};
+}
 
 export default generateKeymap(global, [en_us, fr]);
