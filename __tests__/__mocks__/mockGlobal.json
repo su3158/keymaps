@@ -1,0 +1,9 @@
+{
+  "language": "mockedGlobal",
+  "modifiers": {
+    "02": "MOD_LSHIFT"
+  },
+  "keys": {
+    "28": "ENTER"
+  }
+}

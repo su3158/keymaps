@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`utils generateRegionMap should generate modified region map object 1`] = `
+Object {
+  "mockedRegion1": Object {
+    "keys": Object {
+      "04": Array [
+        "a",
+        "A",
+      ],
+      "extra": "extra",
+    },
+    "language": "mockedRegion1",
+  },
+}
+`;
+
+exports[`utils generateRegionMap should generate region map object 1`] = `
+Object {
+  "mockedRegion1": Object {
+    "keys": Object {
+      "04": Array [
+        "a",
+        "A",
+      ],
+    },
+    "language": "mockedRegion1",
+  },
+}
+`;
