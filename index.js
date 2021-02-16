@@ -7,7 +7,10 @@ import {
 
 import global from './global.json';
 import en_us from './region_en-us.json';
+import ar from './region_ar.json';
 import fr from './region_fr.json';
+import it from './region_it.json';
+import ru from './region_ru.json';
 
 export function generateKeymap(global, regions) {
   const MODIFIER_SHIFT = '02';
@@ -49,4 +52,4 @@ export function generateKeymap(global, regions) {
   };
 }
 
-export default generateKeymap(global, [en_us, fr]);
+export default generateKeymap(global, [ar, en_us, fr, it, ru]);

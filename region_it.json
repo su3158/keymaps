@@ -1,6 +1,6 @@
 {
     "language": "it",
-    "scancodes":
+    "keys":
     {
         "04": ["a", "A"],
         "05": ["b", "B"],
